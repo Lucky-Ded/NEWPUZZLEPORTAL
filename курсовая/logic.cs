@@ -8,11 +8,14 @@ namespace курсовая
 {
     class logic
     {
-        int C;
+        
+                int C;
         int R;
 
         int[,] img;
-
+        
+        
+   
         public logic(int C, int R)
         {
             this.C = C;

@@ -30,17 +30,22 @@ namespace курсовая
 
         Rectangle[] shapes;
 
-        BitmapImage img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
 
+
+       
+      //  public BitmapImage img = ;
+      BitmapImage img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
         Rectangle link = null;
-
-
+        
+        
         Rectangle raz = new Rectangle();
         int oldX = -1;
         int oldY = -1;
         public Window1()
         {
             InitializeComponent();
+
+           
 
 
             W = (int)(img.Width / C);
@@ -185,7 +190,8 @@ namespace курсовая
         {
             if (link != null)
             {
-                Point pos = Mouse.GetPosition(desk);
+                Point pos = Mouse.GetPosition(desk);
+
                 link.RenderTransform = new TranslateTransform(pos.X, pos.Y);
             }
         }
