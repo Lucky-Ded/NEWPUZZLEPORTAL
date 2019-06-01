@@ -58,8 +58,12 @@
     <Compile Include="instruc.xaml.cs">
       <DependentUpon>instruc.xaml</DependentUpon>
     </Compile>
+    <Compile Include="logic.cs" />
     <Compile Include="result.xaml.cs">
       <DependentUpon>result.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
     <Compile Include="winner.xaml.cs">
       <DependentUpon>winner.xaml</DependentUpon>
@@ -92,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="result.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
