@@ -38,7 +38,7 @@ namespace курсовая
         {
             
             Window1 window1 = new Window1();
-            window1.Nomer = 1;
+            
             //window1.img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
             window1.Show();
            

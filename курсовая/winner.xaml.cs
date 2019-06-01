@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using System.IO;
 
 namespace курсовая
-{public interface 
+{
     /// <summary>
     /// Логика взаимодействия для winner.xaml
     /// </summary>

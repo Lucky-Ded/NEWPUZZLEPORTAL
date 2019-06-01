@@ -30,7 +30,7 @@ namespace курсовая
 
         Rectangle[] shapes;
 
-        BitmapImage img = new BitmapImage(new Uri(@"pack://application:,,,/Resources/cat.jpg", UriKind.Absolute));
+        BitmapImage img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
 
         Rectangle link = null;
 
@@ -140,8 +140,12 @@ namespace курсовая
 
                     link.RenderTransform = new TranslateTransform(x, y);
 
-                    if (l.move(cX, cY, int.Parse(link.Tag.ToString())))
-                        MessageBox.Show("win win");
+                    if (l.move(cX, cY, int.Parse(link.Tag.ToString()))) {
+                        // MessageBox.Show("win win");
+                        winner winner = new winner();
+                        winner.Show();
+                        this.Close();
+                       }
                 }
                 else link.RenderTransform = new TranslateTransform(oldX * W, oldY * H);
 
