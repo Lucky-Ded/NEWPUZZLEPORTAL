@@ -56,17 +56,21 @@ namespace курсовая
 
         public bool move(int ii, int jj, int num)
         {
+            
             img[ii, jj] = num;
-
+       
             for (int i = 0; i < C; i++)
                 for (int j = 0; j < R; j++)
                 {
                     if (img[i, j] != i + j * C)
+                       
+                        
                         return false;
                 }
-
+            
             return true;
+            
         }
-
+        
     }
 }

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace курсовая
 {
@@ -19,6 +20,7 @@ namespace курсовая
     /// </summary>
     public partial class Window1 : Window
     {
+        Dictionary<string, DateTime> dlist = new Dictionary<string, DateTime>();
         int C = 4;
         int R = 4;
 
@@ -30,13 +32,13 @@ namespace курсовая
 
         Rectangle[] shapes;
 
+        public int h = 0;
 
 
-       
-      //  public BitmapImage img = ;
-      BitmapImage img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
+        //  public BitmapImage img = ;
+        BitmapImage img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
         Rectangle link = null;
-        
+        public int g = 0;
         
         Rectangle raz = new Rectangle();
         int oldX = -1;
@@ -44,8 +46,8 @@ namespace курсовая
         public Window1()
         {
             InitializeComponent();
-
            
+
 
 
             W = (int)(img.Width / C);
@@ -64,8 +66,20 @@ namespace курсовая
             desk.Children.Add(raz);
         }
 
+        private void dispatcherTimer_Tick(object sender, EventArgs e)
+        {
+            timer.Content = h++;
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            DispatcherTimer dtClockTime = new DispatcherTimer();
+
+            dtClockTime.Tick += dispatcherTimer_Tick;
+            dtClockTime.Interval = new TimeSpan(0, 0, 1);
+            dtClockTime.Start();
+
             shapes = new Rectangle[N];
 
             l = new logic(C, R);
@@ -124,35 +138,45 @@ namespace курсовая
 
         private void MainWindow_MouseUp(object sender, MouseButtonEventArgs e)
         {
+            
             Point pos = Mouse.GetPosition(desk);
 
             if (link != null)
             {
                 if ((pos.X < img.Width) && (pos.Y < img.Height))
                 {
-
+                    
                     int x = ((int)pos.X / W) * W;
                     int y = ((int)pos.Y / H) * H;
 
 
                     int cX = (int)(x / W);
                     int cY = (int)(y / H);
-
+                   
                     int ind = l.get(cX, cY);
-
+                  
                     shapes[ind].RenderTransform = new TranslateTransform(oldX * W, oldY * H);
                     l.move(oldX, oldY, ind);
 
+                    g = g + 1;
+                    hod.Content = g;
+
                     link.RenderTransform = new TranslateTransform(x, y);
 
-                    if (l.move(cX, cY, int.Parse(link.Tag.ToString()))) {
+                    if (l.move(cX, cY, int.Parse(link.Tag.ToString())))
+                    {
+                        
                         // MessageBox.Show("win win");
                         winner winner = new winner();
+                        winner.w1.Content = timer.Content;
+                        winner.w2.Content = hod.Content;
                         winner.Show();
                         this.Close();
-                       }
+                    }
+
                 }
                 else link.RenderTransform = new TranslateTransform(oldX * W, oldY * H);
+               
 
             }
 
@@ -173,16 +197,8 @@ namespace курсовая
 
                 oldX = ((int)pos.X / W);
                 oldY = ((int)pos.Y / H);
-
-               
-
-
-                //l.move((int)(x / W), (int)(y / H), -1);
             }
-
-
-
-            //ll.Content = link.ToString();
+            
         }
 
         private void Window_MouseMove(object sender, MouseEventArgs e)
@@ -192,6 +208,8 @@ namespace курсовая
                 Point pos = Mouse.GetPosition(desk);
 
                 link.RenderTransform = new TranslateTransform(pos.X, pos.Y);
+               
+
             }
         }
 
@@ -200,6 +218,13 @@ namespace курсовая
             menu menu = new menu();
             menu.Show();
             this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            instruc instruc = new instruc();
+            instruc.Show();
+
         }
     }
 }

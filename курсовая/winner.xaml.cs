@@ -37,5 +37,7 @@ namespace курсовая
             menu.Show();
             this.Close();
         }
+
+        
     }
 }
