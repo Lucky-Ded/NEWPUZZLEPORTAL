@@ -138,55 +138,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="фон.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="фон пазла.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle\9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle1\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle1\9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="нач экран.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="123.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="333333333333333333.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="krugi_fon_bliki_temnyy_61800_1280x720.jpg" />
@@ -201,85 +156,13 @@
     <Resource Include="Puzle\for game\gtr.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle2\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle2\9.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Puzle\for game\lamba.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Puzle\for game\leopard.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle3\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle3\9.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Puzle\for game\most.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle4\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle4\9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle5\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle5\9.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Puzle\for game\toge.jpg" />
@@ -288,124 +171,16 @@
     <Resource Include="Puzle\for game\sobaka.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle6\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle6\9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle7\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle7\9.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Puzle\for game\sidney.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle8\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle8\9.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Puzle\for game\panda.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle9\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle9\9.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Puzle\for game\r34.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Puzle\for game\ironman.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle10\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle10\9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\RabbitPuzzle11\1.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\10.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\11.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\12.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\13.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\14.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\15.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\16.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\2.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\3.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\4.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\5.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\6.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\7.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\8.png" />
-    <Resource Include="Puzle\RabbitPuzzle11\9.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Puzle\for game\joker.jpg" />

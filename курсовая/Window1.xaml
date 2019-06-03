@@ -5,12 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:курсовая"
         mc:Ignorable="d"
-         Title="MainWindow" Height="824.286" Width="1521.929" MouseMove="Window_MouseMove" MouseUp="MainWindow_MouseUp">
+         Title="MainWindow" Height="964.286" Width="1663.929" MouseMove="Window_MouseMove" MouseUp="MainWindow_MouseUp" WindowStyle="None">
+    <Window.BorderBrush>
+        <ImageBrush ImageSource="123.jpg"/>
+    </Window.BorderBrush>
     <Grid>
-        <Button Content="Gen" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="88" Height="44" Click="Button_Click"/>
-        <Canvas x:Name="desk" HorizontalAlignment="Left" Height="385" Margin="119,10,0,0" VerticalAlignment="Top" Width="639"/>
-        <Label x:Name="oX" Content="Label" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="104" Height="50"/>
-        <Label x:Name="oY" Content="Label" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="104" Height="50"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="123.jpg"/>
+        </Grid.Background>
+        <Button Content="START" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Margin="0,827,0,0" VerticalAlignment="Top" Width="212" Height="129" Click="Button_Click" FontFamily="Segoe UI Black" FontSize="48" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
+        <Canvas x:Name="desk" HorizontalAlignment="Left" Height="385" Margin="190,10,0,0" VerticalAlignment="Top" Width="639"/>
+        <Button Content="Выйти в главное меню" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Margin="1388,890,0,0" VerticalAlignment="Top" Width="268" Height="66" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="24" Click="Button_Click_1"/>
+        <Label Content="Время" HorizontalAlignment="Left" Height="56" Margin="1487,72,-31,0" VerticalAlignment="Top" Width="200" Background="{x:Null}" Foreground="White" FontSize="24"/>
+        <Label Content="00:00:00" HorizontalAlignment="Left" Margin="1487,128,-31,0" VerticalAlignment="Top" Height="58" Width="200" Foreground="White" FontSize="24"/>
+        <Label Content="Колличество &#xD;&#xA;      ходов" HorizontalAlignment="Left" Margin="1484,186,-31,0" VerticalAlignment="Top" Height="55" Width="203" Foreground="White" FontSize="18"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="1487,246,0,0" VerticalAlignment="Top" Height="60" Width="119" Foreground="White" FontSize="24"/>
+        <Canvas x:Name="pokaz" HorizontalAlignment="Left" Height="197" Margin="684,749,0,0" VerticalAlignment="Top" Width="376"/>
+        <Label Content=" Исходная &#xD;&#xA;картинка" HorizontalAlignment="Left" Margin="469,850,0,0" VerticalAlignment="Top" Height="96" Width="250" Foreground="White" FontSize="24"/>
 
     </Grid>
 </Window>

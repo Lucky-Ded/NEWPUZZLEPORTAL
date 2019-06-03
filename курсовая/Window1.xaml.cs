@@ -53,7 +53,7 @@ namespace курсовая
 
             //установка цвета линии обводки и цвета заливки при помощи коллекции кистей
             raz.Stroke = Brushes.Black;
-            raz.Fill = Brushes.PaleVioletRed;
+            //raz.Fill = Brushes.PaleVioletRed;
             //параметры выравнивания
             raz.HorizontalAlignment = HorizontalAlignment.Left;
             raz.VerticalAlignment = VerticalAlignment.Center;
@@ -174,8 +174,7 @@ namespace курсовая
                 oldX = ((int)pos.X / W);
                 oldY = ((int)pos.Y / H);
 
-                oX.Content = oldX;
-                oY.Content = oldY;
+               
 
 
                 //l.move((int)(x / W), (int)(y / H), -1);
@@ -194,6 +193,13 @@ namespace курсовая
 
                 link.RenderTransform = new TranslateTransform(pos.X, pos.Y);
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            menu menu = new menu();
+            menu.Show();
+            this.Close();
         }
     }
 }

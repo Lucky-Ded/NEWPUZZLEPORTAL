@@ -38,8 +38,28 @@ namespace курсовая
         {
             InitializeComponent();
             Window1 window1 = new Window1();
+
+            Rectangle myRect = new Rectangle();
+            ImageBrush ub = new ImageBrush();
+            //установка цвета линии обводки и цвета заливки при помощи коллекции кистей
+            myRect.Stroke = Brushes.Black;
+            //myRect.Fill = Brushes.SkyBlue;
+            //РАСКОММЕНТИТЬ
+            ub.AlignmentX = AlignmentX.Left;
+            ub.AlignmentY = AlignmentY.Top;
+            ub.ImageSource = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/ozero.jpg", UriKind.Absolute));
+            myRect.Fill = ub;
+            //параметры выравнивания
+            myRect.HorizontalAlignment = HorizontalAlignment.Left;
+            myRect.VerticalAlignment = VerticalAlignment.Center;
+            //размеры прямоугольника
+            myRect.Height = 230;
+            myRect.Width = 400;
+            myRect.Margin = new Thickness(1, 0, 0, 0);
+            //добавление объекта в сцену
+            window1.pokaz.Children.Add(myRect);
             //window1.roma = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
-           
+
             //window1.img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
             window1.Show();
            
@@ -51,7 +71,25 @@ namespace курсовая
         public void Bim2_Click(object sender, RoutedEventArgs e)
         {
             Window1 window1 = new Window1();
-         
+            Rectangle myRect = new Rectangle();
+            ImageBrush ub = new ImageBrush();
+            //установка цвета линии обводки и цвета заливки при помощи коллекции кистей
+            myRect.Stroke = Brushes.Black;
+            //myRect.Fill = Brushes.SkyBlue;
+            //РАСКОММЕНТИТЬ
+            ub.AlignmentX = AlignmentX.Left;
+            ub.AlignmentY = AlignmentY.Top;
+            ub.ImageSource = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
+            myRect.Fill = ub;
+            //параметры выравнивания
+            myRect.HorizontalAlignment = HorizontalAlignment.Left;
+            myRect.VerticalAlignment = VerticalAlignment.Center;
+            //размеры прямоугольника
+            myRect.Height = 230;
+            myRect.Width = 400;
+            myRect.Margin = new Thickness(1, 0, 0, 0);
+            //добавление объекта в сцену
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
         }
@@ -80,7 +118,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-            //window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
 
@@ -109,7 +147,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-           // window1.pokaz.Children.Add(myRect);
+           window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
         }
@@ -137,7 +175,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-           // window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
         }
@@ -165,7 +203,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-           // window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
 
@@ -194,7 +232,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-          //  window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
 
@@ -222,7 +260,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-           // window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
         }
@@ -250,7 +288,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-          //  window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
         }
@@ -278,7 +316,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-           // window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
 
@@ -306,7 +344,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-          //  window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
 
@@ -334,7 +372,7 @@ namespace курсовая
             myRect.Width = 400;
             myRect.Margin = new Thickness(1, 0, 0, 0);
             //добавление объекта в сцену
-          //  window1.pokaz.Children.Add(myRect);
+            window1.pokaz.Children.Add(myRect);
             window1.Show();
             this.Close();
 
