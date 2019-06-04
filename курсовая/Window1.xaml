@@ -23,6 +23,8 @@
         <Canvas x:Name="pokaz" HorizontalAlignment="Left" Height="197" Margin="684,749,0,0" VerticalAlignment="Top" Width="376"/>
         <Label Content=" Исходная &#xD;&#xA;картинка" HorizontalAlignment="Left" Margin="469,850,0,0" VerticalAlignment="Top" Height="96" Width="250" Foreground="White" FontSize="24"/>
         <Button Content="Инструкция"  Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Height="57" Margin="1440,0,-38,0" VerticalAlignment="Top" Width="254" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="24" Click="Button_Click_2"/>
+        <Label x:Name="nomer" Content="" HorizontalAlignment="Left" Height="52" Margin="292,863,0,0" VerticalAlignment="Top" Width="138" Foreground="White" FontSize="20"/>
+        <TextBox x:Name="tx" HorizontalAlignment="Left" Height="57" Margin="292,827,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138"/>
 
     </Grid>
 </Window>

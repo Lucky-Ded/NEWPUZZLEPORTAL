@@ -13,9 +13,9 @@ namespace курсовая
         int R;
 
         int[,] img;
-        
-        
-   
+
+
+
         public logic(int C, int R)
         {
             this.C = C;
@@ -29,6 +29,7 @@ namespace курсовая
                     img[i, j] = i + j * C;
                 }
         }
+
 
         public void scramble(int n)
         {

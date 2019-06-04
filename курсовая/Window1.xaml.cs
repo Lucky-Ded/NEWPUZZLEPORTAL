@@ -20,6 +20,9 @@ namespace курсовая
     /// </summary>
     public partial class Window1 : Window
     {
+        ImageSource img = new BitmapImage() ;
+       
+        
         Dictionary<string, DateTime> dlist = new Dictionary<string, DateTime>();
         int C = 4;
         int R = 4;
@@ -35,18 +38,24 @@ namespace курсовая
         public int h = 0;
 
 
-        //  public BitmapImage img = ;
-        BitmapImage img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
+        // public ImageSource img  ;
+        //ImageSource img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
         Rectangle link = null;
         public int g = 0;
-        
+
         Rectangle raz = new Rectangle();
         int oldX = -1;
         int oldY = -1;
+
         public Window1()
         {
             InitializeComponent();
-           
+            
+             
+
+
+
+
 
 
 
@@ -64,12 +73,27 @@ namespace курсовая
             raz.Width = img.Width;
             //добавление объекта в сцену
             desk.Children.Add(raz);
+
+
         }
+
 
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
             timer.Content = h++;
         }
+        
+           
+
+
+             
+
+
+
+
+    
+
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
