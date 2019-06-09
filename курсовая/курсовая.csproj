@@ -150,50 +150,20 @@
     <Resource Include="ai.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Puzle\for game\ozero.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Puzle\for game\gtr.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Puzle\for game\lamba.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\leopard.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\most.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\toge.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\sobaka.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\sidney.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\panda.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\r34.jpg" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Puzle\for game\enot.jpg" />
     <Resource Include="Puzle\for game\ironman.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\joker.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\newfon.jpg" />
-    <Resource Include="Puzle\for game\newfon2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\qa.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Puzle\for game\porog.jpg" />
+    <Resource Include="Puzle\for game\koleso.jpg" />
+    <Resource Include="Puzle\for game\lestnisa.jpg" />
+    <Resource Include="Puzle\for game\minecraft.jpg" />
+    <Resource Include="Puzle\for game\oblako.jpg" />
+    <Resource Include="Puzle\for game\popug.jpg" />
+    <Resource Include="Puzle\for game\priroda.jpg" />
+    <Resource Include="Puzle\for game\ris.jpg" />
+    <Resource Include="Puzle\for game\rjd.jpg" />
+    <Resource Include="Puzle\for game\sdohni.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

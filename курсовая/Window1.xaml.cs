@@ -20,9 +20,6 @@ namespace курсовая
     /// </summary>
     public partial class Window1 : Window
     {
-        ImageSource img = new BitmapImage() ;
-       
-        
         Dictionary<string, DateTime> dlist = new Dictionary<string, DateTime>();
         int C = 4;
         int R = 4;
@@ -37,9 +34,8 @@ namespace курсовая
 
         public int h = 0;
 
+        BitmapImage img;
 
-        // public ImageSource img  ;
-        //ImageSource img = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/gtr.jpg", UriKind.Absolute));
         Rectangle link = null;
         public int g = 0;
 
@@ -47,20 +43,12 @@ namespace курсовая
         int oldX = -1;
         int oldY = -1;
 
-        public Window1()
+        public Window1(BitmapImage image)
         {
             InitializeComponent();
-            
-             
-
-
-
-
-
-
-
-            W = (int)(img.Width / C);
-            H = (int)(img.Height / R);
+            img = image;
+            W = (int)(img.PixelWidth / C);
+            H = (int)(img.PixelHeight / R);
 
             //установка цвета линии обводки и цвета заливки при помощи коллекции кистей
             raz.Stroke = Brushes.Black;
@@ -82,16 +70,6 @@ namespace курсовая
         {
             timer.Content = h++;
         }
-        
-           
-
-
-             
-
-
-
-
-    
 
 
 
@@ -162,23 +140,23 @@ namespace курсовая
 
         private void MainWindow_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            
+
             Point pos = Mouse.GetPosition(desk);
 
             if (link != null)
             {
                 if ((pos.X < img.Width) && (pos.Y < img.Height))
                 {
-                    
+
                     int x = ((int)pos.X / W) * W;
                     int y = ((int)pos.Y / H) * H;
 
 
                     int cX = (int)(x / W);
                     int cY = (int)(y / H);
-                   
+
                     int ind = l.get(cX, cY);
-                  
+
                     shapes[ind].RenderTransform = new TranslateTransform(oldX * W, oldY * H);
                     l.move(oldX, oldY, ind);
 
@@ -189,7 +167,7 @@ namespace курсовая
 
                     if (l.move(cX, cY, int.Parse(link.Tag.ToString())))
                     {
-                        
+
                         // MessageBox.Show("win win");
                         winner winner = new winner();
                         winner.w1.Content = timer.Content;
@@ -200,7 +178,7 @@ namespace курсовая
 
                 }
                 else link.RenderTransform = new TranslateTransform(oldX * W, oldY * H);
-               
+
 
             }
 
@@ -222,7 +200,7 @@ namespace курсовая
                 oldX = ((int)pos.X / W);
                 oldY = ((int)pos.Y / H);
             }
-            
+
         }
 
         private void Window_MouseMove(object sender, MouseEventArgs e)
@@ -232,7 +210,7 @@ namespace курсовая
                 Point pos = Mouse.GetPosition(desk);
 
                 link.RenderTransform = new TranslateTransform(pos.X, pos.Y);
-               
+
 
             }
         }
