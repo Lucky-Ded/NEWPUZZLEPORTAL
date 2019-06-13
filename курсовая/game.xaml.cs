@@ -246,7 +246,7 @@ namespace курсовая
             //РАСКОММЕНТИТЬ
             ub.AlignmentX = AlignmentX.Left;
             ub.AlignmentY = AlignmentY.Top;
-            ub.ImageSource = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/oblako", UriKind.Absolute));
+            ub.ImageSource = new BitmapImage(new Uri(@"pack://application:,,,/Puzle/for game/oblako.jpg", UriKind.Absolute));
             myRect.Fill = ub;
             //параметры выравнивания
             myRect.HorizontalAlignment = HorizontalAlignment.Left;

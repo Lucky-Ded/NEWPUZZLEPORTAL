@@ -5,19 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:курсовая"
         mc:Ignorable="d"
-        Title="winner" Height="320.531" Width="568.715" WindowStyle="None">
-    <Grid Margin="0,0,-8,-8">
+        Title="winner" Height="671.531" Width="1189.715" WindowStyle="None" WindowState="Maximized" WindowStartupLocation="CenterScreen" Foreground="{x:Null}">
+    <Window.Background>
+        <ImageBrush ImageSource="123.jpg"/>
+    </Window.Background>
+    <Grid Margin="0,0,-644,-324">
         <Grid.Background>
             <ImageBrush ImageSource="123.jpg"/>
         </Grid.Background>
-        <Label x:Name="w1" Content="" HorizontalAlignment="Left" Margin="183,69,0,0" VerticalAlignment="Top" Width="158" Foreground="White" Height="32" FontSize="18" BorderBrush="White" Background="{x:Null}"/>
-        <Label Content="Ваше время " HorizontalAlignment="Left" Margin="47,63,0,0" VerticalAlignment="Top" Width="131" Foreground="White" Height="38" FontSize="18"/>
-        <Label Content="Введите Имя" HorizontalAlignment="Left" Margin="47,152,0,0" VerticalAlignment="Top" Foreground="White" Height="37" Width="131" FontSize="18"/>
-        <TextBox x:Name="name" HorizontalAlignment="Left" Height="31" Margin="183,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" Background="{x:Null}" Foreground="White" BorderBrush="White" FontSize="18" />
-        <Button Content="Сохранить результат" Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Margin="134,209,0,0" VerticalAlignment="Top" Width="270" Height="30" Background="{x:Null}" Foreground="White" FontSize="16" BorderBrush="White" Click="Button_Click"/>
-        <Label Content="Молодец, ты выиграл!" HorizontalAlignment="Left" Margin="178,10,0,0" VerticalAlignment="Top" Height="36" Width="234" FontSize="18" Foreground="White"/>
-        <Label Content="Колличество &#xD;&#xA;шагов" HorizontalAlignment="Left" Margin="47,101,0,0" VerticalAlignment="Top" Width="123" Height="46" Foreground="White" FontSize="14"/>
-        <Label x:Name="w2" Content="" HorizontalAlignment="Left" Height="35" Margin="183,106,0,0" VerticalAlignment="Top" Width="194" Foreground="White" FontSize="18" BorderBrush="White"/>
+        <Label x:Name="w1" Content="" HorizontalAlignment="Left" Margin="808,364,0,0" VerticalAlignment="Top" Width="355" Foreground="White" Height="79" FontSize="36" BorderBrush="White" Background="{x:Null}"/>
+        <Label Content="Ваше время " HorizontalAlignment="Left" Margin="503,348,0,0" VerticalAlignment="Top" Width="295" Foreground="White" Height="95" FontSize="36"/>
+        <Label Content="Введите Имя" HorizontalAlignment="Left" Margin="503,566,0,0" VerticalAlignment="Top" Foreground="White" Height="95" Width="295" FontSize="36"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="79" Margin="808,582,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="696" Background="{x:Null}" Foreground="White" BorderBrush="White" FontSize="36" />
+        <Button Content="Сохранить результат" Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Margin="697,711,0,0" VerticalAlignment="Top" Width="607" Height="75" Background="{x:Null}" Foreground="White" FontSize="48" BorderBrush="White" Click="Button_Click"/>
+        <Label Content="Молодец, ты выиграл!" HorizontalAlignment="Left" Margin="756,215,0,0" VerticalAlignment="Top" Height="89" Width="566" FontSize="48" Foreground="White"/>
+        <Label Content="Колличество &#xD;&#xA;шагов" HorizontalAlignment="Left" Margin="503,443,0,0" VerticalAlignment="Top" Width="276" Height="114" Foreground="White" FontSize="36"/>
+        <Label x:Name="w2" Content="" HorizontalAlignment="Left" Height="89" Margin="808,453,0,0" VerticalAlignment="Top" Width="435" Foreground="White" FontSize="36" BorderBrush="White"/>
 
     </Grid>
 </Window>

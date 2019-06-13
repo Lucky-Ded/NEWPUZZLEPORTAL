@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:курсовая"
         mc:Ignorable="d"
-        Title="result" Height="450" Width="800" WindowStyle="None">
+        Title="result" Height="1309.875" Width="1807.719" WindowStyle="None" Foreground="{x:Null}" WindowState="Maximized" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <ImageBrush ImageSource="123.jpg"/>
     </Window.Background>
     <Grid>
-        <Button x:Name="b7" Style="{DynamicResource myStyleIsAdongDigiDigi}" Cursor="Hand" Content="Назад" HorizontalAlignment="Left" Margin="22,375,0,0" VerticalAlignment="Top" Width="107" Click="B7_Click" Height="47" FontSize="24" Foreground="White" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <ListBox x:Name="list" HorizontalAlignment="Left" Height="274" Margin="43,84,0,0" VerticalAlignment="Top" Width="703" Background="{x:Null}" BorderBrush="White" Foreground="White"  FontSize="24"/>
-        <Label Content="Таблица лидеров" HorizontalAlignment="Left" Margin="179,10,0,0" VerticalAlignment="Top" Height="58" Width="424" FontSize="36" Foreground="White"/>
+        <Button x:Name="b7" Style="{DynamicResource myStyleIsAdongDigiDigi}" Cursor="Hand" Content="Назад" HorizontalAlignment="Left" Margin="96,965,0,0" VerticalAlignment="Top" Width="150" Click="B7_Click" Height="78" FontSize="48" Foreground="White" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <ListBox x:Name="list" HorizontalAlignment="Left" Height="539" Margin="524,264,-53,0" VerticalAlignment="Top" Width="871" Background="{x:Null}" BorderBrush="White" Foreground="White"  FontSize="36"/>
+        <Label Content="Таблица лидеров" HorizontalAlignment="Left" Margin="692,172,0,0" VerticalAlignment="Top" Height="72" Width="525" FontSize="48" Foreground="White"/>
 
     </Grid>
 </Window>

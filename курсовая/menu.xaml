@@ -4,15 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:курсовая"
-        mc:Ignorable="d"
-        Title="menu" Height="450" Width="800" WindowStyle="None" >
+       
+        Title="menu" Height="1114.454" Width="1754.082" WindowStyle="None" WindowState="Maximized" Foreground="{x:Null}" WindowStartupLocation="CenterScreen" >
+    <Window.Background>
+        <ImageBrush ImageSource="123.jpg"/>
+    </Window.Background>
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="123.jpg"/>
         </Grid.Background>
-        <Button x:Name="b2" Content="Выход" HorizontalAlignment="Left" Margin="586,334,0,0" VerticalAlignment="Top" Width="189" Click="B2_Click"  Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" Height="84" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="28"/>
-        <Button x:Name="b3" Content="Tap to Play" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="748" Height="318" Click="B3_Click" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" Foreground="#FFFF4141" Background="{x:Null}" FontSize="48" BorderBrush="{x:Null}"/>
-        <Button x:Name="b5" Content="Таблица лидеров" HorizontalAlignment="Left" Margin="20,350,0,0" VerticalAlignment="Top" Width="222" Height="55" Click="B5_Click"  Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" Foreground="White" Background="{x:Null}" FontSize="24" BorderBrush="{x:Null}"/>
+        <Button x:Name="b2" Content="Выход" HorizontalAlignment="Left" Margin="1399,918,0,0" VerticalAlignment="Top" Width="245" Click="B2_Click"  Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" Height="105" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="36"/>
+        <Button x:Name="b3" Content="Tap to Play" HorizontalAlignment="Left" Margin="111,271,0,0" VerticalAlignment="Top" Width="1598" Height="571" Click="B3_Click" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" Foreground="White" Background="{x:Null}" FontSize="72" BorderBrush="{x:Null}" FontWeight="Bold"/>
+        <Button x:Name="b5" Content="Таблица лидеров" HorizontalAlignment="Left" Margin="299,918,0,0" VerticalAlignment="Top" Width="298" Height="85" Click="B5_Click"  Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" Foreground="White" Background="{x:Null}" FontSize="36" BorderBrush="{x:Null}"/>
 
     </Grid>
 </Window>

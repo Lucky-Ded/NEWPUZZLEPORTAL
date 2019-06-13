@@ -27,7 +27,7 @@ namespace курсовая
         int W = 64;
         int H = 64;
         int[,] num;
-        const int N = 16;
+        const int N = 16 ;
         logic l;
 
         Rectangle[] shapes;
@@ -180,8 +180,7 @@ namespace курсовая
                         winner.Show();
                         this.Close();
                     }
-                    l3.Content = ind;
-                    l4.Content = oldY;
+                
                 }
                 else link.RenderTransform = new TranslateTransform(oldX * W, oldY * H);
 
@@ -203,8 +202,7 @@ namespace курсовая
                     oldX = ((int)pos.X / W);
                     oldY = ((int)pos.Y / H);
                 }
-            l1.Content = oldX;
-            l2.Content = oldY;
+           
                 link = (Rectangle)sender;
 
                 desk.Children.Remove(link);

@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:курсовая"
         
-        mc:Ignorable="d"
-        Title="z" Height="450" Width="800" Background="#FFFF0707" WindowStyle="None" BorderBrush="Red" Foreground="Red">
-    <Window.OpacityMask>
-        <SolidColorBrush Color="Red"/>
-    </Window.OpacityMask>
+       
+        Title="z" Height="450" Width="800" WindowStyle="None" Foreground="{x:Null}" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="123.jpg"/>
+    </Window.Background>
     <Grid>
 
         <Button x:Name="b1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="792" Click="Button_Click" Height="442"  ScrollViewer.HorizontalScrollBarVisibility="Visible" Cursor="Hand" OpacityMask="Red" ForceCursor="True" Style="{DynamicResource myStyleIsAdongDigiDigi}" IsDefault="True" >
@@ -21,6 +21,11 @@
             <Button.Background>
                 <ImageBrush ImageSource="ai.jpg" TileMode="FlipX"/>
             </Button.Background>
+            <Label Content="TAP TO PLAY" Width="454" Height="164" Background="{x:Null}" FontSize="72">
+                <Label.Foreground>
+                    <SolidColorBrush Color="White" Opacity="0.155"/>
+                </Label.Foreground>
+            </Label>
         </Button>
 
     </Grid>
