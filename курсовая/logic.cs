@@ -28,6 +28,7 @@ namespace курсовая
                 {
                     img[i, j] = i + j * C;
                 }
+            
         }
 
 

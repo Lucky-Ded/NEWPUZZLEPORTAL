@@ -1,2 +1,6 @@
-Name	       Time
+Name	       Time	Steps
 vital                  34
+dfsdfa                  40                  25
+lolik                  47                  20
+fgh                  116                  46
+ошшщро                  210                  62

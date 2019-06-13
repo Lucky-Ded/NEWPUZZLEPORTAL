@@ -26,7 +26,7 @@ namespace курсовая
 
         int W = 64;
         int H = 64;
-
+        int[,] num;
         const int N = 16;
         logic l;
 
@@ -38,7 +38,7 @@ namespace курсовая
 
         Rectangle link = null;
         public int g = 0;
-
+        Rectangle lol = new Rectangle();
         Rectangle raz = new Rectangle();
         int oldX = -1;
         int oldY = -1;
@@ -49,7 +49,7 @@ namespace курсовая
             img = image;
             W = (int)(img.PixelWidth / C);
             H = (int)(img.PixelHeight / R);
-
+            
             //установка цвета линии обводки и цвета заливки при помощи коллекции кистей
             raz.Stroke = Brushes.Black;
             //raz.Fill = Brushes.PaleVioletRed;
@@ -97,7 +97,7 @@ namespace курсовая
 
                     shapes[ind] = new Rectangle();
                     shapes[ind].Tag = ind;
-
+                   
                     ImageBrush ib = new ImageBrush();
                     //позиция изображения будет указана как координаты левого верхнего угла
                     //изображение будет выведено без растяжения/сжатия
@@ -140,30 +140,35 @@ namespace курсовая
 
         private void MainWindow_MouseUp(object sender, MouseButtonEventArgs e)
         {
-
+            
             Point pos = Mouse.GetPosition(desk);
-
+            
             if (link != null)
             {
+                
                 if ((pos.X < img.Width) && (pos.Y < img.Height))
                 {
-
+                   
                     int x = ((int)pos.X / W) * W;
                     int y = ((int)pos.Y / H) * H;
 
-
+                   
                     int cX = (int)(x / W);
                     int cY = (int)(y / H);
 
                     int ind = l.get(cX, cY);
 
+
                     shapes[ind].RenderTransform = new TranslateTransform(oldX * W, oldY * H);
+                  
                     l.move(oldX, oldY, ind);
 
                     g = g + 1;
                     hod.Content = g;
-
+                    
                     link.RenderTransform = new TranslateTransform(x, y);
+
+               
 
                     if (l.move(cX, cY, int.Parse(link.Tag.ToString())))
                     {
@@ -175,11 +180,12 @@ namespace курсовая
                         winner.Show();
                         this.Close();
                     }
-
+                    l3.Content = ind;
+                    l4.Content = oldY;
                 }
                 else link.RenderTransform = new TranslateTransform(oldX * W, oldY * H);
 
-
+               
             }
 
             link = null;
@@ -189,18 +195,24 @@ namespace курсовая
         private void MainWindow_MouseDown(object sender, MouseButtonEventArgs e)
         {
 
-            link = (Rectangle)sender;
+           
+                Point pos = Mouse.GetPosition(desk);
+                if ((pos.X < img.Width) && (pos.Y < img.Height))
+                {
 
-            Point pos = Mouse.GetPosition(desk);
+                    oldX = ((int)pos.X / W);
+                    oldY = ((int)pos.Y / H);
+                }
+            l1.Content = oldX;
+            l2.Content = oldY;
+                link = (Rectangle)sender;
 
+                desk.Children.Remove(link);
+                desk.Children.Add(link);
+            
 
-            if ((pos.X < img.Width) && (pos.Y < img.Height))
-            {
-
-                oldX = ((int)pos.X / W);
-                oldY = ((int)pos.Y / H);
-            }
-
+            
+            
         }
 
         private void Window_MouseMove(object sender, MouseEventArgs e)

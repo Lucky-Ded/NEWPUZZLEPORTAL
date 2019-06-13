@@ -25,7 +25,7 @@ namespace курсовая
         public result()
         {
             InitializeComponent();
-            FileStream file1 = new FileStream(@"C:\ri87\date1.txt", FileMode.Open); //создаем файловый поток 
+            FileStream file1 = new FileStream(@"C:\ri87\NEWPUZZLEPORTAL\date1.txt", FileMode.Open); //создаем файловый поток 
             StreamReader reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком 
             list.Items.Add(reader.ReadToEnd()); //считываем все данные с потока и выводим на экран
           
