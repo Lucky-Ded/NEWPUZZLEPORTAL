@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:курсовая"
         mc:Ignorable="d"
-        Title="game" Height="1032" Width="1874" WindowStyle="None" WindowState="Maximized">
+        Title="game" Height="1232" Width="2168" WindowStyle="None" WindowState="Maximized">
     <Grid Margin="0,0,-8,2">
         <Grid.Background>
             <ImageBrush ImageSource="123.jpg"/>
@@ -72,6 +72,16 @@
                 <ImageBrush ImageSource="Puzle/for game/sdohni.jpg"/>
             </Button.Background>
         </Button>
+        <CheckBox Name="tri" Content="3 Х 3" HorizontalAlignment="Left" Margin="1538,179,0,0" VerticalAlignment="Top" Height="79" Width="198" Foreground="White" BorderBrush="{x:Null}" Background="White" FontSize="36" Checked="CheckBox_Checked" RenderTransformOrigin="0.162,0.456"/>
+        <Label Content="Выберите сложность" HorizontalAlignment="Left" Margin="1538,102,0,0" VerticalAlignment="Top" Width="368" Height="77" Foreground="White" Background="{x:Null}" FontSize="36"/>
+        <CheckBox Name="chet" Content="4 X 4" HorizontalAlignment="Left" Margin="1538,258,0,0" VerticalAlignment="Top" Height="71" Width="198" Background="White" BorderBrush="{x:Null}" Foreground="White" FontSize="36"/>
+        <CheckBox Name="piat"  Content="5 X 5" HorizontalAlignment="Left" Margin="1538,319,0,0" VerticalAlignment="Top" Height="80" Width="198" BorderBrush="{x:Null}" Foreground="White" FontSize="36"/>
+        <Label Content="Легкий" HorizontalAlignment="Left" Margin="1736,179,0,0" VerticalAlignment="Top" Height="79" Width="238" Foreground="White" FontSize="36"/>
+        <Label Content="Нормальный" HorizontalAlignment="Left" Margin="1741,258,0,0" VerticalAlignment="Top" Height="71" Width="233" Foreground="White" Background="{x:Null}" FontSize="36"/>
+        <Label Content="Сложный" HorizontalAlignment="Left" Margin="1741,319,0,0" VerticalAlignment="Top" Height="57" Width="233" Foreground="White" Background="{x:Null}" FontSize="36"/>
+        <CheckBox x:Name="ten" Content="10 X 10" HorizontalAlignment="Left" Margin="1538,383,0,0" VerticalAlignment="Top" Height="118" Width="198" BorderBrush="{x:Null}" Foreground="White" FontSize="36"/>
+        <Label HorizontalAlignment="Left" Margin="1741,383,0,0" VerticalAlignment="Top" Height="118" Width="233" Background="{x:Null}" Foreground="White" FontSize="36" Content="Удачи  &#xD;&#xA;в жизни!!!"/>
+        <Button x:Name="bat1" Style="{DynamicResource myStyleIsAdongDigiDigi}" Cursor="Hand" Content="Выбрать свою картинку " HorizontalAlignment="Left" Height="69" Margin="932,823,0,0" VerticalAlignment="Top" Width="590" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="48" Click="Bat1_Click"/>
 
     </Grid>
 </Window>

@@ -13,7 +13,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="123.jpg"/>
         </Grid.Background>
-        <Button Content="START" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Margin="-2,842,0,-18" VerticalAlignment="Top" Width="300" Height="190" Click="Button_Click" FontFamily="Segoe UI Black" FontSize="72" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
+        <Button Name="name" Content="START" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Margin="-2,842,0,-18" VerticalAlignment="Top" Width="300" Height="190" Click="name_Click" FontFamily="Segoe UI Black" FontSize="72" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}"/>
         <Canvas x:Name="desk" HorizontalAlignment="Left" Height="385" Margin="190,10,0,0" VerticalAlignment="Top" Width="639"/>
         <Button Content="Выйти в главное меню" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" HorizontalAlignment="Left" Margin="1426,890,0,0" VerticalAlignment="Top" Width="422" Height="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="36" Click="Button_Click_1"/>
         <Label Content="Время" HorizontalAlignment="Left" Height="77" Margin="1571,280,0,0" VerticalAlignment="Top" Width="243" Background="{x:Null}" Foreground="White" FontSize="36"/>

@@ -21,13 +21,14 @@ namespace курсовая
     public partial class Window1 : Window
     {
         Dictionary<string, DateTime> dlist = new Dictionary<string, DateTime>();
-        int C = 4;
-        int R = 4;
+       int C ;
+        int R ;
+        int N ;
 
         int W = 64;
         int H = 64;
-        int[,] num;
-        const int N = 16 ;
+      
+      
         logic l;
 
         Rectangle[] shapes;
@@ -37,16 +38,20 @@ namespace курсовая
         BitmapImage img;
 
         Rectangle link = null;
-        public int g = 0;
+         int g;
         Rectangle lol = new Rectangle();
         Rectangle raz = new Rectangle();
         int oldX = -1;
         int oldY = -1;
 
-        public Window1(BitmapImage image)
+        public Window1(BitmapImage image, int d, int f,int g)
         {
             InitializeComponent();
-            img = image;
+            
+            img = image; 
+            this.C = d;
+            this.R = f;
+            this.N = g;
             W = (int)(img.PixelWidth / C);
             H = (int)(img.PixelHeight / R);
             
@@ -73,11 +78,11 @@ namespace курсовая
 
 
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void name_Click(object sender, RoutedEventArgs e)
         {
 
             DispatcherTimer dtClockTime = new DispatcherTimer();
-
+         
             dtClockTime.Tick += dispatcherTimer_Tick;
             dtClockTime.Interval = new TimeSpan(0, 0, 1);
             dtClockTime.Start();
@@ -238,5 +243,7 @@ namespace курсовая
             instruc.Show();
 
         }
+
+        
     }
 }
