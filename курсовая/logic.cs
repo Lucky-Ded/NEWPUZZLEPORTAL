@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace курсовая
 {
-    class logic
+    public class logic
     {
 
         int C;
         int R;
 
-        int[,] img;
+        public int[,] img;
 
 
 
