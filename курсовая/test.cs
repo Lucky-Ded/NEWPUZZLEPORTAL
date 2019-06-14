@@ -39,30 +39,33 @@ namespace курсовая
             {
                 Random rng = new Random();
                 logic l = new logic(C, R);
-                bool p = false;
+                bool p = true ;
                 int n = 100;
                 int t;
                 l.scramble(n);
 
 
+
                 for (int i = 0; i < C; i++)
+
                     for (int j = 0; j < R; j++)
                     {
-                        //l.img[i, j] = i + j * C;
-                        
-                        for (int k = 0; k < (C * R)+1; k++)
-                        {
-                            t = l.img[i, j];
-                            if (l.img[i, j] != t) { p = false   ; } else { p = true; }
-                            
-                        }
-                        
+                        t = l.img[i, j];
+
+                        for (int k = i+1; k < C ; k++)
+                            for (int m = j+1; n < R ; k++)
+                            {
+                                if (l.img[m, k] == t  )
+                                {
+                                    p = true;
+                                }
+                                //else { p = true; }
+                            }
                     }
 
 
                 Assert.IsTrue(p);
                 
-
             }
 
 
