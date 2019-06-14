@@ -16,7 +16,7 @@ namespace курсовая
 
 
 
-        public logic(int C, int R)
+        public  logic(int C, int R)
         {
             this.C = C;
             this.R = R;

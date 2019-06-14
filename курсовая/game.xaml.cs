@@ -55,7 +55,7 @@ namespace курсовая
             if ((tri.IsChecked == false) && (chet.IsChecked == false) && (piat.IsChecked == false) && (ten.IsChecked == false))
             {
 
-                MessageBox.Show("Выберите размер");
+                MessageBox.Show("Выберите сложность");
             }
             else
             {
@@ -65,7 +65,7 @@ namespace курсовая
                     C = 3;
                     R = 3;
                     N = 9;
-
+                   
 
                 }
                 if ((tri.IsChecked == false) && (chet.IsChecked == true) && (piat.IsChecked == false) && (ten.IsChecked == false))
@@ -73,7 +73,7 @@ namespace курсовая
                     C = 4;
                     R = 4;
                     N = 16;
-
+                    
                 }
                 if ((tri.IsChecked == false) && (chet.IsChecked == false) && (piat.IsChecked == true) && (ten.IsChecked == false))
                 {
@@ -89,6 +89,7 @@ namespace курсовая
                     R = 10;
                     N = 100;
                 }
+               
                 Window1 window1 = new Window1(img1, C, R, N);
                 Rectangle myRect = new Rectangle();
                 ImageBrush ub = new ImageBrush();

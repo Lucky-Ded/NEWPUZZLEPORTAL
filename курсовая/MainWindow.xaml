@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:курсовая"
         
        
-        Title="z" Height="450" Width="800" WindowStyle="None" Foreground="{x:Null}" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+        Title="z" Height="450" Width="800" Foreground="{x:Null}" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
     <Window.Background>
         <ImageBrush ImageSource="123.jpg"/>
     </Window.Background>

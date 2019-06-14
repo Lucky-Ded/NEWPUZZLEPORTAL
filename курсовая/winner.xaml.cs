@@ -37,12 +37,12 @@ namespace курсовая
             else
             {
                 menu menu = new menu();
-                File.AppendAllText(@"C:\Users\Виталя\Desktop\NEWPUZZLEPORTAL\date1.txt", name.Text);
-                File.AppendAllText(@"C:\Users\Виталя\Desktop\NEWPUZZLEPORTAL\date1.txt", "                  ");
-                File.AppendAllText(@"C:\Users\Виталя\Desktop\NEWPUZZLEPORTAL\date1.txt", w1.Content.ToString());
-                File.AppendAllText(@"C:\Users\Виталя\Desktop\NEWPUZZLEPORTAL\date1.txt", "                  ");
-                File.AppendAllText(@"C:\Users\Виталя\Desktop\NEWPUZZLEPORTAL\date1.txt", w2.Content.ToString());
-                File.AppendAllText(@"C:\Users\Виталя\Desktop\NEWPUZZLEPORTAL\date1.txt", "\n");
+                File.AppendAllText(@"C:\ri87\NEWPUZZLEPORTAL\date1.txt", name.Text);
+                File.AppendAllText(@"C:\ri87\NEWPUZZLEPORTAL\date1.txt", "                  ");
+                File.AppendAllText(@"C:\ri87\NEWPUZZLEPORTAL\date1.txt", w1.Content.ToString());
+                File.AppendAllText(@"C:\ri87\NEWPUZZLEPORTAL\date1.txt", "                  ");
+                File.AppendAllText(@"C:\ri87\NEWPUZZLEPORTAL\date1.txt", w2.Content.ToString());
+                File.AppendAllText(@"C:\ri87\NEWPUZZLEPORTAL\date1.txt", "\n");
 
                 menu.Show();
                 this.Close();

@@ -15,7 +15,7 @@
         </Grid.Background>
         <Button x:Name="b2" Content="Выход" HorizontalAlignment="Left" Margin="1399,918,0,0" VerticalAlignment="Top" Width="245" Click="B2_Click"  Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" Height="105" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontSize="36"/>
         <Button x:Name="b3" Content="Tap to Play" HorizontalAlignment="Left" Margin="111,271,0,0" VerticalAlignment="Top" Width="1598" Height="571" Click="B3_Click" Cursor="Hand"  Style="{DynamicResource myStyleIsAdongDigiDigi}" Foreground="White" Background="{x:Null}" FontSize="72" BorderBrush="{x:Null}" FontWeight="Bold"/>
-        <Button x:Name="b5" Content="Таблица лидеров" HorizontalAlignment="Left" Margin="299,918,0,0" VerticalAlignment="Top" Width="298" Height="85" Click="B5_Click"  Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" Foreground="White" Background="{x:Null}" FontSize="36" BorderBrush="{x:Null}"/>
+        <Button x:Name="b5" Content="Таблица результатов" HorizontalAlignment="Left" Margin="223,918,0,0" VerticalAlignment="Top" Width="374" Height="85" Click="B5_Click"  Cursor="Hand" Style="{DynamicResource myStyleIsAdongDigiDigi}" Foreground="White" Background="{x:Null}" FontSize="36" BorderBrush="{x:Null}"/>
 
     </Grid>
 </Window>

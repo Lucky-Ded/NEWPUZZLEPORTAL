@@ -12,7 +12,7 @@
     <Grid>
         <Button x:Name="b7" Style="{DynamicResource myStyleIsAdongDigiDigi}" Cursor="Hand" Content="Назад" HorizontalAlignment="Left" Margin="96,965,0,0" VerticalAlignment="Top" Width="150" Click="B7_Click" Height="78" FontSize="48" Foreground="White" Background="{x:Null}" BorderBrush="{x:Null}"/>
         <ListBox x:Name="list" HorizontalAlignment="Left" Height="539" Margin="524,264,-53,0" VerticalAlignment="Top" Width="871" Background="{x:Null}" BorderBrush="White" Foreground="White"  FontSize="22"/>
-        <Label Content="Таблица лидеров" HorizontalAlignment="Left" Margin="692,172,0,0" VerticalAlignment="Top" Height="72" Width="525" FontSize="48" Foreground="White"/>
+        <Label Content="Таблица результатов" HorizontalAlignment="Left" Margin="692,172,0,0" VerticalAlignment="Top" Height="72" Width="525" FontSize="48" Foreground="White"/>
 
     </Grid>
 </Window>
